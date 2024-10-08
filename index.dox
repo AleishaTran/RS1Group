@@ -1,0 +1,21 @@
+/**
+ * @mainpage Sprint 3 Overview
+ * 
+ * Sprint 3 focuses on the development and demonstration of essential coding skills within the robotics domain. 
+ * The key tasks include:
+ * 
+ * - **SLAM (Simultaneous Localization and Mapping):** 
+ *   You will implement ROS nodes to generate a map of the environment based on the robot's movements. 
+ *   This involves controlling the robot in a Gazebo simulation to create a map that will be overlaid on the Gazebo world map. 
+ *   The quality of the generated map is reflectant on the points being overriden in a specific place as the SLAM shifts the points and causes horrible movement within the map 
+ * 
+ * - **Path Planning:**
+ *   I attempted to develop algorithms for the robot to navigate from a specified start point to an end point within the generated map, demonstrating effective path planning techniques.
+ *   This was quite difficult as I heard false information that we were able to just use nav2goal but it seems the content reflects writing a path planning matrix to autonomously move though the map.
+ *   This was unfortunatley not completed but I am able to perform Nav2Goal on the day of the lab
+ *   
+ * - **Object Identification:**
+ *   The main task is writing a ROS node to identify a known cylindrical object using laser scans. This includes reading laser scans, identifying the object, and accurately representing its position in the map.
+ *   In which has been completed but with the rough surroundsings from the SLAM mapping the quality of the identification might not come as great as it should.
+ * 
+ */
